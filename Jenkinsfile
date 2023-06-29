@@ -43,11 +43,7 @@ pipeline {
     	success{
     		echo "succes de toutes les étapes"
     	}
-    	failure{
-    		mail to : "productowner@test.fr",
-    			subject : "Echec build", 
-    			body : "Vérifier les test"
-    	}
+    	
     }
     
     
