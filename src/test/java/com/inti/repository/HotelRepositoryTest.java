@@ -184,7 +184,7 @@ public class HotelRepositoryTest {
 	@Test
 	public void getHotelListeVideTest()
 	{
-		// GIVEN
+		// GIVEN   
 				
 		// WHEN
 		List<Hotel> listeH = ihr.findAll();
