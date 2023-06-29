@@ -50,7 +50,7 @@ public class AffecterRepositoryTest {
 		Hotel hoteldestine = ihr.save(hotelSaved);
 		Destination destinationhotelee = idr.getReferenceById(destinationSaved.getIdDestination());
 		
-		// THEN
+		// THEN 
 		assertThat(hoteldestine).isNotNull();
 		assertThat(hoteldestine.getIdHotel()).isGreaterThan(0);
 		assertThat(destinationhotelee).isNotNull();
