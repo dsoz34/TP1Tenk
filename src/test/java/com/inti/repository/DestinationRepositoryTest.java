@@ -170,7 +170,7 @@ public class DestinationRepositoryTest {
 	{
 		// GIVEN
 				
-		// WHEN
+		// WHEN 
 		List<Destination> listeD = idr.findAll();
 		
 		// THEN
